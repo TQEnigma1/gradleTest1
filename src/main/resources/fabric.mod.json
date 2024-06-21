@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "starlittemplate",
+	"version": "${version}",
+	"name": "StarlitTemplate",
+	"description": "Template for StarlitMC related Mods",
+	"authors": [
+		"WhaleFromMars"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/StarlitMC/StarlitTemplate"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/starlittemplate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"server": [
+			{
+				"value": "com.starlitmc.StarlitTemplate",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.23"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
